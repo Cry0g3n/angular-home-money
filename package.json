@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "server": "json-server --watch db.json --port 3000",
-    "dev": "concurrently --kill-others \"yarn start\" && \"yarn server\""
+    "dev": "concurrently --kill-others \"yarn start\" \"yarn server\""
   },
   "private": true,
   "dependencies": {
