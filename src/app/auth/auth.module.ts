@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common';
 import {AuthComponent} from './auth.component';
 import {RegistrationComponent} from './registration/registration.component';
 import {LoginComponent} from './login/login.component';
+import {AuthRoutingModule} from './auth-routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import {LoginComponent} from './login/login.component';
     AuthComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AuthRoutingModule
   ]
 })
 export class AuthModule { }
