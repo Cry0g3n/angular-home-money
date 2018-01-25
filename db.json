@@ -5,6 +5,30 @@
       "email": "wfm@mail.ru",
       "password": "12345678",
       "name": "Администратор"
+    },
+    {
+      "email": "andrey.shemiakov@gmail.com",
+      "password": "sdfsdfdsf",
+      "name": "Андрей Шемяков",
+      "id": 2
+    },
+    {
+      "email": "andrey.shemiakov@gmail.com",
+      "password": "sdfdsf",
+      "name": "Андрей Шемяков",
+      "id": 3
+    },
+    {
+      "email": "andrey.shemiakov@gmail.com",
+      "password": "авпавпавп",
+      "name": "Андрей Шемяков",
+      "id": 4
+    },
+    {
+      "email": "andrey.shemiakov@gmail.com",
+      "password": "xvxvxсмим",
+      "name": "Андрей Шемяков",
+      "id": 5
     }
   ],
   "bill": {
