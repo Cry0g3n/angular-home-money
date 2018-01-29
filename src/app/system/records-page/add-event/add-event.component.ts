@@ -29,6 +29,6 @@ export class AddEventComponent implements OnInit {
       amount *= -1;
     }
 
-    const event = new WFMEvent(type, amount, +category, moment.format('DD.MM.YYYY HH:mm:ss'), description);
+    const event = new WFMEvent(type, amount, +category, moment().format('DD.MM.YYYY HH:mm:ss'), description);
   }
 }
