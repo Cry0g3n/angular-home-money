@@ -6,7 +6,7 @@ import {BaseApi} from '../../../shared/core/base-api';
 import {Category} from '../models/category.model';
 
 @Injectable()
-export class CategoriesService extends BaseApi{
+export class CategoriesService extends BaseApi {
   constructor(public http: Http) {
     super(http);
   }
@@ -21,5 +21,9 @@ export class CategoriesService extends BaseApi{
 
   updateCategory(category: Category): Observable<Category> {
     return this.put(`categories/${category.id}`, category);
+  }
+
+  getCategoryById(id: number): Observable<Category> {
+    return this.get(`categories/${id}`);
   }
 }
